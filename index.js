@@ -1,4 +1,4 @@
-function theBeatlesPlay(musicians,instruments){
+function theBeatlesPlay(musicians, instruments){
   var emptyArray = [];
   for (var i = 0; i < musicians.length; i++)
   emptyArray.push(musicians[i] + " plays " +instruments[i])
@@ -16,12 +16,12 @@ var emptyArray = [];
 
 
  function iLoveTheBeatles(array) {
-    var text = [];
+    var emptyArray = [];
     
     do {
-        text.push("I love the Beatles!");
+        emptyArray.push("I love the Beatles!");
         array++;
     }
     while (array < 15);
-    return text
+    return emptyArray
 }
